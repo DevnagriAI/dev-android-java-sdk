@@ -1,4 +1,4 @@
-# dev-android-java-sdk
+# Android Java Development SDK
 # SDK Integration Steps:
 # Introduction
 
