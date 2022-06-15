@@ -83,7 +83,7 @@ Translations can be used as usual in layouts:
 <TextView android:text="@string/translation_key" />
 And inside code:
 
-TextView text = (TextView)findViewById(R.id.text_id)
+TextView text = (TextView)findViewById(R.id.text_id);
 text.setText(R.string.translation_key)
 
 # Change Language
