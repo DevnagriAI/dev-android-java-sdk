@@ -80,11 +80,12 @@ Additionally, you need to inject the SDK in each activity, e.g. by creating a ba
 # Usage
 Translations can be used as usual in layouts:
 
-<TextView android:text="@string/translation_key" />
+	<TextView android:text="@string/translation_key" />
+
 And inside code:
 
-TextView text = (TextView)findViewById(R.id.text_id);
-text.setText(R.string.translation_key);
+	TextView text = (TextView)findViewById(R.id.text_id);
+	text.setText(R.string.translation_key);
 
 # Change Language
 
