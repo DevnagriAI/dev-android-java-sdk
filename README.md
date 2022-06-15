@@ -84,7 +84,7 @@ Translations can be used as usual in layouts:
 And inside code:
 
 TextView text = (TextView)findViewById(R.id.text_id);
-text.setText(R.string.translation_key)
+text.setText(R.string.translation_key);
 
 # Change Language
 
