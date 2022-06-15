@@ -24,7 +24,7 @@ Add the below dependency in your app build.gradle file:
 	
 	    ...
 	    
-	    implementation ('com.github.DevnagriAI:dev-android-java-sdk:1.0@aar') { transitive(true) }
+	    implementation ('com.github.DevnagriAI:dev-android-java-sdk:1.2@aar') { transitive(true) }
 	    
 	}
         
@@ -76,6 +76,15 @@ Additionally, you need to inject the SDK in each activity, e.g. by creating a ba
 
 # Default Localisation Override
    The SDK override the functionality of @string and getString by default. 
+
+# Usage
+Translations can be used as usual in layouts:
+
+<TextView android:text="@string/translation_key" />
+And inside code:
+
+val text = findViewById(R.id.text_id) as TextView
+text.setText(R.string.translation_key)
 
 # Change Language
 
