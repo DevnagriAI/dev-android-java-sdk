@@ -28,6 +28,7 @@ public class BaseApplication extends Application {
         //List<String> collect = Arrays.stream(R.plurals.class.getFields()).map(Field::getName).collect(toList());
 
         String API_KEY ="devnagri_9b3a4902cd4111ecbb6002bf838402f8";
+        API_KEY = "devnagri_6503e5c8e30d11ec9f8d021b05a03360"; // usha
         int sync_Time = 10;
         try {
             devNagriTranslationSdk = new DevNagriTranslationSdk();
