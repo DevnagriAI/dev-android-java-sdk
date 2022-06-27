@@ -70,7 +70,7 @@ Additionally, you need to inject the SDK in each activity, e.g. by creating a ba
         @NonNull
         @Override
         public AppCompatDelegate getDelegate() {
-            return super.getDelegate();
+            return MainApplication.devNagriTranslationSdk.fetchAppDelegate(this, super.getDelegate());
         }
     }
 
