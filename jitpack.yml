@@ -1,6 +1,6 @@
 install: 
   - FILE="-Dfile=dev-android-java-sdk.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.github.DevnagriAI -DartifactId=dev-android-java-sdk -Dversion=1.4.1 -Dpackaging=aar -DpomFile=pom.xml
+  - mvn install:install-file $FILE -DgroupId=com.github.DevnagriAI -DartifactId=dev-android-java-sdk -Dversion=1.4.2 -Dpackaging=aar -DpomFile=pom.xml
 jdk:
   - openjdk11
 before_install:
